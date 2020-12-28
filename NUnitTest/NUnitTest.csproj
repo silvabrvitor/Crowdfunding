@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Gravity.Drivers.Mock" Version="2020.6.12.1" />
+    <PackageReference Include="NUnit" Version="3.12.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.16.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="OpenQA.Selenium.Winium" Version="1.0.0.4" />
+    <PackageReference Include="Selenium.Firefox.WebDriver" Version="0.26.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\src\Vaquinha.Domain\Vaquinha.Domain.csproj" />
+    <ProjectReference Include="..\src\Vaquinha.MVC\Vaquinha.MVC.csproj" />
+    <ProjectReference Include="..\src\Vaquinha.Repository\Vaquinha.Repository.csproj" />
+    <ProjectReference Include="..\src\Vaquinha.Service\Vaquinha.Service.csproj" />
+    <ProjectReference Include="..\tests\Vaquinha.Automated.UI.Tests\Vaquinha.Automated.UI.Tests.csproj" />
+    <ProjectReference Include="..\tests\Vaquinha.Integration.Tests\Vaquinha.Integration.Tests.csproj" />
+    <ProjectReference Include="..\tests\Vaquinha.Tests.Common\Vaquinha.Tests.Common.csproj" />
+    <ProjectReference Include="..\tests\Vaquinha.Unit.Tests\Vaquinha.Unit.Tests.csproj" />
+  </ItemGroup>
+
+</Project>
