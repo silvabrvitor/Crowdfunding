@@ -12,8 +12,13 @@ Aprender sobre testes de software. Foi realizado os testes de Unidade, Integraç
 
 #### ---------------------------------------------------------------------------------------------------------------
 
-# Projeto de:
+## Projeto para solicitações de Alunos simples feito por Vitor Silva
+A aplicação consiste em um cadastro de alunos, cadastro de cursos e solicitações
 
+Feito com EntityFramework e Teste de Software
+
+---------------------------------------------------------------------------------------------------------------
+## dotnet-vaquinha-tests feito por Eliézer Zarpelão e Marcos Freire
 
 
 # dotnet-vaquinha-tests
@@ -34,8 +39,4 @@ Projeto Base para Testes - .Net Core
 
 [Linkedin](https://www.linkedin.com/in/marcos-freire-a73891125/)  
 [Github](https://github.com/marcosfreire) 
-
-## Slides
-
-[Slides em PDF](TesteNetCore.pdf)
 
