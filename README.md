@@ -6,7 +6,7 @@ Aprender sobre testes de software. Foi realizado os testes de Unidade, Integraç
 
 
 
-![](C:\workspace\vaquinha\dotnet-vaquinha-tests-master\tests.png)
+![](tests.png)
 
 
 
